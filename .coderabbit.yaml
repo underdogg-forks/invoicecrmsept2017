@@ -131,7 +131,7 @@ code_generation:
     path_instructions:
       - path: 'tests/Unit/**'
         instructions: |
-          Each test method must begin with `it_`.
+          Each test method must begin with `it_` and is in snake_case.
           Annotate each test method with `#[Test]`.
           Each test method must contain `$this->markTestIncomplete();` by default.
           Prefer Fakes and Fixtures over Mocks.
