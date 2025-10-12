@@ -65,7 +65,7 @@ tools:
   # --- Core linters for Laravel (PHP) and JS -------------------------------------------
   phpstan:
     enabled: true
-    level: 3
+    level: "3"
   phpcs:
     enabled: true
   eslint:
